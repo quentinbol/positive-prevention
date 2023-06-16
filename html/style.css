@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display+SC&family=Playfair+Display:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body { /*modifie le body (le texte principal*/
+    margin: 0; /*mettre la marge exterieur des elements a 0*/
+    padding: 0; /*mettre la marge interieur des elements a 0*/
+    font-family: 'Montserrat', sans-serif; /*changer la police d'écriture*/
+}
+nav{ /*modifie tous les elements dans l'onglet nav*/
+    display: flex; /*aligne les éléments*/ 
+    justify-content: center; /*centre les éléments*/
+    align-items: center;
+    border-bottom: 5px solid #000 /*ajoute une ligne grise en dessous du titre*/
+}
+
+nav h1{ /*modifie le titre*/
+    color: #717171; /*titre en gris*/
+    font-family: 'Playfair Display', sans-serif; /*changer la police d'écriture du titre*/
+    font-size: 30px; /*agrandis le texte*/
+}
+
+nav .onglets{
+    margin-top: 3px; /*aligne le titre avec les onglets*/ 
+    margin-left: 60%; /*deplace les onglets de 60%*/ 
+}
+
+nav .onglets a{ /*modfifie les liens*/
+    text-decoration: none; /*enlever le soulignement bleu moche des lignes*/
+    color: #000; /*couleur noir*/
+    margin-right: 15px; /* espace entre onglets*/
+    border-bottom: 1px solid #000; /*soulignes les onglets*/
+    padding-bottom: 5px; /*espace entre onglet et soulignement*/
+}
+
+header h1 {
+    margin-right: 40%; /*deplacer vers la gauche*/
+    font-family: 'Playfair Display', sans-serif; /*changer la police*/
+    
+}
+
+header h4 {
+    margin-right: 40%; /*deplacer vers la gauche*/
+    margin-top: 20px; /*deplacer vers le haut*/
+    border-bottom: 3px solid rgb(170, 4, 4); /*souligne le rouge*/
+}
+
+header{
+    color: rgb(170, 4, 4); /*ecrit en rouge*/
+    font-size: 200%; /*augmente le texte*/
+    display:flex; /*aligne les éléments*/
+    flex-direction: column; /*aligne en colonne */
+    align-items: center; /*met au centre les elements*/
+    background: url('../image/sida.jpg'); /*lien vers l'image du background*/
+    background-size: cover; /* image cover la totalité du header*/
+    padding: 4.5%; /*augmente la marge interieur de l'image*/
+    border-bottom: 5px solid #000 /*bordure en noir*/
+}
+
+.main{
+    margin: 50px 250px;
+    align-items: center;
+}
+
+p{
+    font-size: large;
+}
+
+div{
+    text-align: center;
+}
+
+.main .content .card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+
+}
+
+.main .content .card .left
+{
+    flex: 0 0 30%;
+    background-color: black;
+    color: #fff;
+}
+
+img{
+    font-size: 200%;
+}
+
+
+.main .content .card .right img{
+    height: 420px;
+    width: 600px;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.titre{
+    text-align: center;
+}
+
+
+
+p{
+    color: #fff;
+    text-decoration: none;
+}
+
+.lien_insta1{
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#test{
+    display: flex;
+    justify-content: center;
+}
+
+.footercss{
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    bottom: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+.imgfooter{
+    margin-right: 85%;
+    margin-top: 150px;
+    height: 80px;
+}
+
+.ap{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+footer h1{
+    margin-right: 10%;
+    color: #fff;
+}
